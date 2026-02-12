@@ -12,6 +12,6 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 - Sort data by any column
 - Works with dynamic datasets (you can upload your own CSV files)
 
-##Author
-Prachi Aggarwal
+## Author
+Prachi Aggarwal,
 Parth Singhal
