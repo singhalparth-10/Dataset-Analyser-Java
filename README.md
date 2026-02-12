@@ -11,3 +11,7 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 - Calculate the average of numeric columns
 - Sort data by any column
 - Works with dynamic datasets (you can upload your own CSV files)
+
+##Author
+Prachi Aggarwal
+Parth Singhal
