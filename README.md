@@ -1,7 +1,7 @@
-# Dataset Analyzer System
+# Dataset Analyser System
 
 ## Description
-Dataset Analyzer is a Java-based program that allows users to load any CSV dataset and perform basic data analysis operations.  
+Dataset Analyser is a Java-based program that allows users to load any CSV dataset and perform basic data analysis operations.  
 It uses OOPS concepts, file handling, and dynamic data structures to manage and process datasets.
 
 ## Features
