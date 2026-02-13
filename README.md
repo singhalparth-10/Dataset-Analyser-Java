@@ -13,10 +13,10 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 - Works with dynamic datasets (you can upload your own CSV files)
 
 ## Menu Output
-![Menu](Menu.png)
+![Menu](MenuOutput.png)
 
 ## Display Dataset
-![Display](DisplayData.png)
+![Display](DisplayDataset.png)
 
 ## Search Data
 ![Search](SearchData.png)
@@ -27,8 +27,12 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 ## Sort Data
 ![Sort](SortData.png)
 
-## Exiting Dataset
-![Exit](ExitDataset.png)
+## Career 1
+![Career1](CareerChoice1.png)
+
+## Career 2
+![Career2](CareerChoice2.png)
+
 
 ## Author
 Prachi Aggarwal,
