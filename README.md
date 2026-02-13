@@ -19,13 +19,13 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 ![Display](DisplayDataset.png)
 
 ## Search Data
-![Search](SearchDataset.png)
+![Search](SearchDataset.png?1)
 
 ## Average
-![Average](AverageDataset.png)
+![Average](AverageDataset.png?1)
 
 ## Sort Data
-![Sort](SortDataset.png)
+![Sort](SortDataset.png?1)
 
 ## Career 1
 ![Career1](CareerChoice1.png)
