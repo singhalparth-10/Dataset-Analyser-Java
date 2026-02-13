@@ -306,7 +306,7 @@ public class dataset_analyser {
                     System.out.println("Invalid choice.");
             }
 
-        } while (choice != 5);
+        } while (choice != 6);
 
         sc.close();
     }
