@@ -12,25 +12,37 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 - Sort data by any column
 - Works with dynamic datasets (you can upload your own CSV files)
 
-## Menu Output
+## Menu
 ![Menu](MenuOutput.png)
 
-## Display Dataset
+---
+
+## Display Data
 ![Display](DisplayDataset.png)
 
-## Search Data
-![Search](SearchDataset.png?1)
+---
 
-## Average
-![Average](AverageDataset.png?1)
+## Search Data
+![Search](SearchDataset.png)
+
+---
+
+## Calculate Average
+![Average](AverageDataset.png)
+
+---
 
 ## Sort Data
-![Sort](SortDataset.png?1)
+![Sort](SortDataset.png)
 
-## Career 1
+---
+
+## Career Suggestions (Coding)
 ![Career1](CareerChoice1.png)
 
-## Career 2
+---
+
+## Career Suggestions (Business)
 ![Career2](CareerChoice2.png)
 
 
