@@ -1,4 +1,4 @@
-java import java.io.*;
+import java.io.*;
 import java.util.*;
 
 class Record {
@@ -143,7 +143,96 @@ public class dataset_analyser {
         System.out.println("Data sorted successfully.");
         displayData();
     }
+    
+    static void suggestCareer(String interest) {
 
+    interest = interest.toLowerCase();
+
+    System.out.println("\nSuggested Career Roles:");
+
+    if (interest.contains("cod") || interest.contains("program") || interest.contains("tech")) {
+
+        System.out.println("- Software Developer");
+        System.out.println("- Backend Developer");
+        System.out.println("- Full Stack Developer");
+        System.out.println("- App Developer");
+        System.out.println("- Data Analyst");
+
+    } 
+    else if (interest.contains("bus") || interest.contains("market") || interest.contains("entre")) {
+
+        System.out.println("- Business Analyst");
+        System.out.println("- Marketing Manager");
+        System.out.println("- Sales Manager");
+        System.out.println("- Entrepreneur");
+        System.out.println("- Product Manager");
+
+    } 
+    else if (interest.contains("design") || interest.contains("art") || interest.contains("creative")) {
+
+        System.out.println("- Graphic Designer");
+        System.out.println("- UI/UX Designer");
+        System.out.println("- Fashion Designer");
+        System.out.println("- Animator");
+        System.out.println("- Interior Designer");
+
+    } 
+    else if (interest.contains("journal") || interest.contains("media") || interest.contains("news")) {
+
+        System.out.println("- Journalist");
+        System.out.println("- News Reporter");
+        System.out.println("- Content Writer");
+        System.out.println("- News Editor");
+        System.out.println("- Media Analyst");
+
+    } 
+    else if (interest.contains("polit") || interest.contains("govern") || interest.contains("public")) {
+
+        System.out.println("- Politician");
+        System.out.println("- Political Analyst");
+        System.out.println("- Public Policy Advisor");
+        System.out.println("- Civil Services Officer");
+        System.out.println("- Diplomat");
+
+    } 
+    else if (interest.contains("social") || interest.contains("ngo")) {
+
+        System.out.println("- Social Worker");
+        System.out.println("- NGO Coordinator");
+        System.out.println("- Community Development Officer");
+        System.out.println("- Human Rights Advocate");
+
+    } 
+    else if (interest.contains("psycho") || interest.contains("counsel")) {
+
+        System.out.println("- Psychologist");
+        System.out.println("- Counselor");
+        System.out.println("- Mental Health Therapist");
+        System.out.println("- Behavioral Analyst");
+
+    } 
+    else if (interest.contains("sport") || interest.contains("athlete")) {
+
+        System.out.println("- Professional Athlete");
+        System.out.println("- Sports Coach");
+        System.out.println("- Fitness Trainer");
+        System.out.println("- Sports Analyst");
+
+    } 
+    else if (interest.contains("defence") || interest.contains("army") || interest.contains("navy")) {
+
+        System.out.println("- Army Officer");
+        System.out.println("- Navy Officer");
+        System.out.println("- Air Force Officer");
+        System.out.println("- Defence Analyst");
+
+    } 
+    else {
+
+        System.out.println("No suggestions available for this interest.");
+        System.out.println("Try fields like: coding, business, journalism, politics, social work, sports, defence, design, psychology.");
+    }
+}
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -156,13 +245,14 @@ public class dataset_analyser {
         int choice;
 
         do {
-            System.out.println("\n===== Dataset Analyzer =====");
+            System.out.println("\n===== Dataset Analyser =====");
             System.out.println("0. Load New CSV");
             System.out.println("1. Display Data");
             System.out.println("2. Search by Column");
             System.out.println("3. Calculate Average");
             System.out.println("4. Sort by Column");
             System.out.println("5. Exit");
+            System.out.println("6. Career Suggestions");
             System.out.print("Enter choice: ");
 
             choice = sc.nextInt();
@@ -203,6 +293,13 @@ public class dataset_analyser {
 
                 case 5:
                     System.out.println("Exiting system...");
+                    break;
+
+                case 6:
+                    sc.nextLine();   // clears buffer
+                    System.out.print("Enter your field of interest: ");
+                    String interest = sc.nextLine();
+                    suggestCareer(interest);
                     break;
 
                 default:
