@@ -15,32 +15,20 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 ## Menu
 ![Menu](MenuOutput.png)
 
----
-
 ## Display Data
 ![Display](DisplayDataset.png)
 
----
-
 ## Search Data
-![Search](SearchDataset.png)
-
----
+![Search](SearchData.png)
 
 ## Calculate Average
-![Average](AverageDataset.png)
-
----
+![Average](AverageData.png)
 
 ## Sort Data
-![Sort](SortDataset.png)
-
----
+![Sort](SortData.png)
 
 ## Career Suggestions (Coding)
 ![Career1](CareerChoice1.png)
-
----
 
 ## Career Suggestions (Business)
 ![Career2](CareerChoice2.png)
