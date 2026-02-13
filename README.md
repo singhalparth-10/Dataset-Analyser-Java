@@ -22,7 +22,7 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 ![Search](SearchData.png)
 
 ## Calculate Average
-![Average](AverageData.png)
+![Average](Average.png)
 
 ## Sort Data
 ![Sort](SortData.png)
