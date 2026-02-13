@@ -33,6 +33,26 @@ It uses OOPS concepts, file handling, and dynamic data structures to manage and 
 ## Career Suggestions (Business)
 ![Career2](CareerChoice2.png)
 
+## Career Suggestions (Designer)
+![Career3](CareerChoice3.png)
+
+## Career Suggestions (Journalist)
+![Career4](CareerChoice4.png)
+
+## Career Suggestions (Politician)
+![Career5](CareerChoice5.png)
+
+## Career Suggestions (Social)
+![Career6](CareerChoice6.png)
+
+## Career Suggestions (Psycho)
+![Career7](CareerChoice7.png)
+
+## Career Suggestions (Sport)
+![Career8](CareerChoice8.png)
+
+## Career Suggestions (Defence)
+![Career9](CareerChoice9.png)
 
 ## Author
 Prachi Aggarwal,
